@@ -27,14 +27,6 @@ class LoginTest(unittest.TestCase):
         home_page.click_logout_button()
         assert driver.title == 'OrangeHRM'
 
-#git init
-# git status
-# git add --all
-# git status
-# git commit -m "added HelloJenkins program"
-# git remote add origin https://github.com/sergei820/JenkinsLearn.git
-# git push -u origin master
-
     @classmethod
     def tearDownClass(cls):
         driver.close()
